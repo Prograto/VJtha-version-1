@@ -1,6 +1,66 @@
 body {
   overflow-x: hidden;
 }
+
+.card {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card h1 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.card h3 span {
+  color: #3498db;
+}
+
+.instruction-list {
+  text-align: left;
+  padding: 0;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.instruction-list li {
+  margin-bottom: 12px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-left: 4px solid #3498db;
+  transition: background-color 0.3s;
+}
+
+.instruction-list li:hover {
+  background-color: #e3f2fd;
+}
+
+.violation {
+  color: red;
+  font-weight: bold;
+}
+
+.start-btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-btn:hover {
+  background-color: #218838;
+}
+
 .question-header {
     background-color: #e6f0ff;
     padding: 10px;

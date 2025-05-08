@@ -7,18 +7,22 @@
   <link rel="stylesheet" href="eapcetexam.css">
 </head>
 <body>
-  <div id="intro">
-    <h1>EAPCET Mock Exam</h1>
-    <h3>Title: <span id="title"></span></h3>
-    <p><strong>Instructions:</strong></p>
-    <ul>
-      <li>Total duration: 30 minutes</li>
-      <li>Each question carries 1 mark</li>
-      <li>No negative marking</li>
-      <li>Do not refresh the page during the exam</li>
-    </ul>
-    <button onclick="startExam()">Start Exam</button>
-  </div>
+    <div id="intro" class="card">
+        <h1>EAPCET Mock Exam</h1>
+        <h3>Title: <span id="title">Practice Tests</span></h3>
+        <p><strong>Instructions:</strong></p>
+        <ul class="instruction-list">
+            <li>📝 Total Questions: <strong>160</strong></li>
+            <li>⏱️ Total Duration: <strong>180 minutes</strong></li>
+            <li>✅ Each question carries <strong>1 mark</strong></li>
+            <li>🚫 No negative marking</li>
+            <li>🔄 <strong>Do not refresh</strong> or reload the page</li>
+            <li>📴 <strong>Do not switch tabs</strong> or leave full screen — will lead to <span class="violation">auto-submission</span></li>
+            <li>🛑 <strong>Keyboard shortcuts, right-click, or exiting full screen</strong> are violations</li>
+        </ul>
+        <button onclick="startExam()" class="start-btn">Start Exam</button>
+    </div>
+      
 
   <div id="submitCard" style="display: none; padding: 20px; border-radius: 10px; background-color: #f4f4f4; box-shadow: 0 2px 8px rgba(0,0,0,0.2); max-width: 400px; margin: 20px auto; text-align: center;">
     <h2>Submission Summary</h2>
