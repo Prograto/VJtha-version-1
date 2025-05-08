@@ -33,6 +33,13 @@ document.addEventListener('DOMContentLoaded', () => {
         loginForm.style.display = 'none';
         registerForm.style.display = 'flex';
     });
+    
+    loginCard.style.display = 'block';
+    studentLogin.classList.add('active');
+    registerTab.classList.remove('active');
+    loginForm.style.display = 'flex';
+    registerForm.style.display = 'none';
+    userTypeInput.value = 'student';
 
 });
 
